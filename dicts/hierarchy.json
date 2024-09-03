@@ -1,0 +1,20 @@
+{
+  "word": "Animais",
+  "depth": 1,
+  "subcategories": [
+    {
+      "word": "Mamíferos",
+      "depth": 2,
+      "subcategories": [
+        {
+          "word": "Felinos",
+          "depth": 3,
+          "subcategories": [
+            {"word": "Leões", "depth": 4},
+            {"word": "Tigres", "depth": 4}
+          ]
+        }
+      ]
+    }
+  ]
+}
