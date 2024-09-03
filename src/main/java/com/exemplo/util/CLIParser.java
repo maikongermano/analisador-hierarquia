@@ -1,6 +1,6 @@
 package com.exemplo.util;
 
-import com.exemplo.model.WordNode;
+import java.util.Map;
 
 public class CLIParser {
 	private int depth = 1;
@@ -51,19 +51,7 @@ public class CLIParser {
 		return phrase;
 	}
 
-	public void executeAnalysis(WordNode root) {
-		if (root == null) {
-			throw new IllegalArgumentException("Raiz da hierarquia não pode ser nula.");
-		}
-
-		PhraseAnalyzer analyzer = new PhraseAnalyzer(root);
-
-		long startTime = System.currentTimeMillis();
-		analyzer.analyze(phrase, depth);
-		long analysisTime = System.currentTimeMillis() - startTime;
-
-		if (verbose) {
-			System.out.println("Tempo de verificação da frase: " + analysisTime + "ms");
-		}
+	public Map<String, Integer> executeAnalysis(PhraseAnalyzer analyzer) {
+		return analyzer.analyze(phrase, depth);
 	}
 }

@@ -7,11 +7,79 @@
       "depth": 2,
       "subcategories": [
         {
-          "word": "Felinos",
+          "word": "Carnívoros",
           "depth": 3,
           "subcategories": [
-            {"word": "Leões", "depth": 4},
-            {"word": "Tigres", "depth": 4}
+            {
+              "word": "Felinos",
+              "depth": 4,
+              "subcategories": [
+                {"word": "Leões", "depth": 5},
+                {"word": "Tigres", "depth": 5},
+                {"word": "Jaguars", "depth": 5},
+                {"word": "Leopardos", "depth": 5}
+              ]
+            }
+          ]
+        },
+        {
+          "word": "Herbívoros",
+          "depth": 3,
+          "subcategories": [
+            {
+              "word": "Equídeos",
+              "depth": 4,
+              "subcategories": [
+                {"word": "Cavalos", "depth": 5},
+                {"word": "Zebras", "depth": 5},
+                {"word": "Asnos", "depth": 5}
+              ]
+            },
+            {
+              "word": "Bovídeos",
+              "depth": 4,
+              "subcategories": [
+                {"word": "Bois", "depth": 5},
+                {"word": "Búfalos", "depth": 5},
+                {"word": "Antílopes", "depth": 5},
+                {"word": "Cabras", "depth": 5}
+              ]
+            },
+            {
+              "word": "Primatas",
+              "depth": 4,
+              "subcategories": [
+                {"word": "Gorilas", "depth": 5},
+                {"word": "Chimpanzés", "depth": 5},
+                {"word": "Orangotangos", "depth": 5}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "word": "Aves",
+      "depth": 2,
+      "subcategories": [
+        {
+          "word": "Rapinas",
+          "depth": 3,
+          "subcategories": [
+            {"word": "Águias", "depth": 4},
+            {"word": "Falcões", "depth": 4},
+            {"word": "Corujas", "depth": 4},
+            {"word": "Milhafres", "depth": 4}
+          ]
+        },
+        {
+          "word": "Pássaros",
+          "depth": 3,
+          "subcategories": [
+            {"word": "Canários", "depth": 4},
+            {"word": "Papagaios", "depth": 4},
+            {"word": "Pardais", "depth": 4},
+            {"word": "Rouxinóis", "depth": 4}
           ]
         }
       ]
